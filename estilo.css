@@ -11,7 +11,7 @@ section {
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
-    padding: 3% 0 3% 0;
+    padding: 30px 0 20px 0;
 }
 
 /* --------  Header  -------- */
@@ -76,8 +76,9 @@ header .menu li:hover {
    visibility: hidden;
    display: block;
    position: relative;
-   top: 30px;
-   left: 700px;
+   top: 0;/*30px*/
+   margin-top: 3%;
+   left: 85%;/*700px*/
    
    z-index: 1;
    
@@ -121,9 +122,10 @@ header .menu li:hover {
  #menuToggle span
  {
    display: block;
-   width: 50px;
-   height: 5px;
-   margin-bottom: 10px;
+   width: 13%;/*50px*/
+   height: 8%;/*5px*/
+   margin-top: 0%;
+   margin-bottom: 2%;/*10px*/
    position: relative;
    
    background: aliceblue;
@@ -155,7 +157,7 @@ header .menu li:hover {
  #menuToggle input:checked ~ span
  {
    opacity: 1;
-   transform: rotate(45deg) translate(-2px, -1px);
+   transform: rotate(45deg) translate(-10%, -1px);/*-2px/-5px*/
    background: aliceblue;
  }
  
@@ -173,7 +175,7 @@ header .menu li:hover {
   */
   #menuToggle input:checked ~ span:nth-last-child(2)
   {
-    transform: rotate(-45deg) translate(0, -1px);
+    transform: rotate(-45deg) translate(-10%, -1px);/*0/-5px*/
   }
  
  /*
@@ -184,7 +186,7 @@ header .menu li:hover {
  {
    position: static;
    width: 300px;/*300px*/
-   margin: -100px 0 0 -300px;
+   margin: -100px 0 0 -310px;
    padding: 50px;
    padding-top: 125px;
    
@@ -201,7 +203,10 @@ header .menu li:hover {
  
  #menu li
  {
-   padding: 10px 0;
+   text-align: center;
+   width: 80%;
+   padding: 5% 0;/*10px 0*/
+   padding-left: 5%;
    font-size: 40px;
    color: aliceblue;
  }
@@ -270,6 +275,9 @@ h2.centro{
 }
 
 iframe.video{
+  top: 0;
+  left: 0;
+  width: 100%;
   margin-left: 2%;
   margin-bottom: 2%;
 }
@@ -331,6 +339,11 @@ h3.centro, h4.centro{
     width: 90%;
 }
 
+.fotos2{
+  width: 90%;
+  margin-top: 5%;
+}
+
 /*----------------  Sobre mim   ----------------*/
 
 .final{
@@ -352,10 +365,7 @@ h3.centro, h4.centro{
 /*----------------  Rodapé   ----------------*/
 
 .espaço{
-  margin-top: 5%;
-  margin-left: 5%;
   text-align: center;
-  margin-right: -2%;
 }
 
 footer {
@@ -363,27 +373,31 @@ footer {
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
+  padding: 30px 0 50px 0;
   color: aliceblue;
 }
 
 .link {
   color: white;
+  text-decoration: initial;
 }
+
 .link:hover {
   color: white;
+  text-decoration: underline;
 }
 
 /* --------  Partes  --------*/
 
 .parte {
   float: left;
+  padding: 0 0;
   position: relative;
 }
 
 .parte.um{
   width: 45%;
-  margin-top: 0;
-  padding: 2% 1% 0 2%;
+  padding-left: 2%;
 }
 
 .parte.dois{
@@ -403,8 +417,6 @@ footer {
 
 .parte.cinco{
   width: 50%;
-  height:25%;
-  text-align: justify;
 }
 
 /* --------  Responsividade  --------*/
@@ -413,7 +425,7 @@ footer {
     display: block;
     width: 100%;
     padding: 0;
-    margin: 10px auto;
+    margin: 5px auto;
     float: none;
   }
 
@@ -438,6 +450,7 @@ footer {
   }
 
   header{
+    margin-top: -0.5%;
     height: 7%;
   }
 
@@ -457,19 +470,16 @@ footer {
     width: 80%;
     margin-top: 20%;
     margin-left: 10%;
-    margin-right: 10%;
-    font-size: 64px;
+    margin-right: 10%;/*64px*/
   }
 
   figure h2.título{
     width: 80%;
     margin-left: 10%;
-    margin-right: 10%;
-    font-size: 48px;
+    margin-right: 10%;/*48px*/
   }
 
   p.Paragrafo2, p.Paragrafo, .final{
-    font-size: 34px;
     margin-left: 2%;
     width: 95%;
   }
@@ -503,10 +513,9 @@ footer {
   }
 
   .espaço{
+    font-size: 16px;
     margin-left: 2%;
     width: 95%;
-    text-align: center;
-    margin-top: 2%;
   }
 
   .pequeno{
