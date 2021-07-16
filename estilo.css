@@ -95,7 +95,7 @@ header .menu li:hover {
   height: 32px;
   position: absolute;
   top: -7px;
-  left: -5px;
+  left: -7.5%;
   
   cursor: pointer;
   
@@ -111,7 +111,7 @@ header .menu li:hover {
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
-  margin-left: -10px;
+  margin-left: -5%;
   position: relative;
   
   background: aliceblue;
@@ -157,7 +157,7 @@ header .menu li:hover {
 {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -80px;
+  margin: -100px 0 0 -10%;
   padding: 50px;
   padding-top: 125px;
   
@@ -426,7 +426,7 @@ footer {
   }
 
   .menu li{
-    padding: 15px 10px 5px 10px;
+    padding: 15px 10px 15px 10px;
   }
 
   figure .imagemfundo{
