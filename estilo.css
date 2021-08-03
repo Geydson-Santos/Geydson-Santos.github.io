@@ -157,7 +157,7 @@ header .menu li:hover {
 {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -300px;
+  margin: -100px 0 0 -1000px;
   padding: 50px;
   padding-top: 125px;
   
