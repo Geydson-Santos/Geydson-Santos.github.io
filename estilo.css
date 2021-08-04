@@ -157,7 +157,7 @@ header .menu li:hover {
 {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -75px;
+  margin: -100px 0 0 -48px;
   padding: 50px;
   padding-top: 125px;
   
@@ -196,7 +196,6 @@ figure .imagemfundo{
   background: url(img/imagemfundo.jpg);
   background-size: cover;
   alt: "Painel Solar";
-  height: 95%;
   padding: 10px;
 }
 
@@ -218,7 +217,7 @@ figure h1.título{
 figure h2.título{
   border-top: 3px solid #e4dd79 /*Dourado / Amarelo claro*/;
   padding-top: 0.5%;
-  padding-bottom: 30px;
+  padding-bottom: 27%;
 }
 
 /*-------------------   Texto   ----------------------*/
