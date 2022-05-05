@@ -66,7 +66,7 @@ header .menu li:hover {
   display: block;
   position: relative;
   top: -25px;
-  left: -7%;
+  left: -23px;
   
   z-index: 1;
   
@@ -248,14 +248,14 @@ iframe.video{
   top: 0;
   left: 0;
   margin-left: 2%;
-  margin-bottom: 2%;
-  margin-top: 5%;
+  margin-bottom: 0;
+  margin-top: 50px;
 }
 
 p.Paragrafo{
   font-size: 18px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 50px;
+  margin-right: 0;
   text-align: justify;
 }
 
@@ -282,7 +282,7 @@ p.Paragrafo2{
 }
 
 .icone:hover{
-  background-image: linear-gradient( to bottom right, rgb(250, 250, 250), aliceblue);
+  background-image: linear-gradient( to bottom right, rgb(250, 250, 250), rgb(214, 228, 240));
   border-radius: 20px;
 }
 
