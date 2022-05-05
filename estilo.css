@@ -468,9 +468,9 @@ footer {
   }
 
   iframe.video{
-    margin: 1px;
-    width: 50%;
-    height: 50%;
+    width: 320px;
+    height: 180px;
+    
   }
 
   .eu{
