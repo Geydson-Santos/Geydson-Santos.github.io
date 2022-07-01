@@ -1,0 +1,288 @@
+html,
+body {
+    margin: 0;
+    font-size:16px;
+    font-family: Roboto, 'Open Sans', Arial, sans-serif;
+    text-align: center;
+
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 3% 0 3% 0;
+}
+
+/*-----------------     Capa    ------------*/
+
+figure{
+    margin: 0;
+}
+
+figure .imagemfundo{
+    background: url(img/Imagem\ de\ fundo.jpg);
+    background-size: cover;
+    alt: "Painel Solar";
+    height: 100%;
+    padding: 10px;
+}
+
+figure .título{
+    font-size: 30px;
+    color:#251d4d /*Azul escuro*/;
+    margin-left: 55%;
+    margin-right: 5%;
+    text-shadow: 1px, 1px, black;
+}
+
+figure h1.título{
+    margin-top: 9%;
+    margin-bottom: -1%;
+    font-size: 42px;
+}
+
+figure h2.título{
+    border-top: 3px solid #e4dd79 /*Dourado / Amarelo claro*/;
+    padding-top: 0.5%;
+    padding-bottom: 30px;
+}
+
+/* --------  Header  -------- */
+header {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background: #251d4d;
+  }
+
+  header #logo {
+    position: fixed;
+    top: 1%;
+    float: left;
+    height: 40px;
+    width: 70px;
+    margin-top: 0.2%;
+    margin-left: 0.5%;
+  }
+
+  header #logo img{
+    max-height: 100%;
+  }
+
+  header .menu {
+    float: right;
+    list-style: none;
+    margin-top: 0.2%;
+    margin-right: 2%;
+  }
+
+  header .menu li {
+  float: left;
+  font-size: 18px;
+  padding: 15px 10px 15px 10px;
+}
+
+  header .menu li a {
+    color: initial;
+    text-decoration: initial;
+    color: aliceblue;
+  }
+
+  header .menu li:hover {
+    background-color: rgb(50, 42, 90);
+    border-radius: 15px;
+  }
+
+/*-------------------   Texto   ----------------------*/
+
+.Seção{
+    background: aliceblue;
+}
+
+.pequeno{
+    width: 5%;
+}
+
+.pequeno2{
+    width: 2%;
+}
+
+.video{
+    display: table-cell;
+    float: left;
+}
+
+.texto1{
+    display: table-cell;
+    margin-bottom: 100%;
+    margin-right: 2%;
+}
+
+
+h2.centro{
+    margin-top: 2%;
+    font-size: 36px;
+    text-align: center;
+}
+
+iframe.Video{
+    margin-left: 2%;
+}
+
+p.Paragrafo{
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+p.Paragrafo2{
+    font-size: 18px;
+    text-align: center;
+}
+
+/*
+#caixa{
+    margin-left: 28.5%;
+    margin-right: 28.5%;
+    width: 42.5%;
+    height: 42.5%;
+    border: 3px solid #443232;;
+}
+
+*/
+
+/*----------------  Metas   ----------------*/
+
+.Metas {
+    display: table-cell;
+    width: 15%;
+    margin-left: 2%;
+}
+
+.icone{
+    width: 50%;
+}
+
+.icone:hover{
+    background-color: aliceblue;
+    border-radius: 20px;
+    
+}
+
+/*----------------  Notícias   ----------------*/
+
+.noticias{
+    display: table-cell;
+    margin-left: 2%;
+}
+
+h2.centro2{
+    font-size: 36px;
+    text-align: center;
+}
+
+h3.centro, h4.centro{
+    font-size: 22px;
+}
+
+.link2 {
+    color: black;
+    text-decoration: initial;
+  }
+  .link2:hover {
+    color: black;
+  }
+
+  .fotos{
+      width: 90%;
+  }
+
+/*----------------  Sobre mim   ----------------*/
+
+
+.Sobremim{
+    display: table-cell;
+}
+
+.final{
+    float: left;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 2%;
+    margin-bottom: 25%;
+    width: 100%;
+}
+
+.eu{
+    margin-left: 40%;
+    float: left;
+    width: 45%;
+}
+
+/*----------------  Rodapé   ----------------*/
+
+.rodapé{
+    display: table-cell;
+    width: 50%;
+    height:25%;
+    text-align: justify;
+}
+
+
+.espaço{
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: center;
+    margin-right: -2%;
+}
+
+footer {
+    background-color: #251d4d;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    color: aliceblue;
+  }
+  
+  .link {
+    color: white;
+  }
+  .link:hover {
+    color: white;
+  }
+
+/* --------  Responsividade  --------*/
+@media all and (max-width: 768px) {
+  .Vídeo, .Texto1, .Metas, .noticias, .Sobremim, .rodapé {
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px auto;
+    float: none;
+  }
+
+  header #logo {
+    position: relative;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .menu {
+    visibility: hidden;
+  }
+  figure h1.titulo {
+    margin-top: 40%;
+  }
+  figure h2.titulo {
+    margin: 0 10% 0 10%;
+  }
+}
+
+/*----------------  Parágrafos   ----------------*/
+
+p{
+    line-height:1.8;
+}
