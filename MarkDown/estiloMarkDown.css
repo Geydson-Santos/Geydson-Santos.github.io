@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap');
+
+html{
+    background-image: linear-gradient(to bottom right,rgb(0, 0, 35), rgb(0, 0, 5));
+}
+
+html,
+body{
+    color: aliceblue;
+    font-family: 'Montserrat', Regular;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* */
+
+.titulo{
+    text-align: center;
+    color: aqua;
+    font-weight: 800;
+}
+
+.texto{
+    text-align: justify;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Status{
+    text-align: center;
+    color: rgb(47, 255, 99);
+    font-weight: 800;
+}
+
+#Link{
+    text-align: center;
+    font-weight: 600;
+    color: cornflowerblue;
+}
+
+#Obrigado{
+    text-align: center;
+    font-weight: 800;
+    color: red;
+}
+
+#Obrigado.hover{
+    color: transparent;
+}
