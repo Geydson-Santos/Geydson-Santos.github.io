@@ -1,6 +1,4 @@
-<head>
-    <link rel="stylesheet" type="text/css" media="all" href="MarkDown/estiloMarkDown.css"/>
-</head>
+<link rel="stylesheet" type="text/css" media="all" href="MarkDown/estiloMarkDown.css"/>
 
 <h1 class="titulo">Projeto Meu Primeiro Site</h1>
 
